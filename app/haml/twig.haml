@@ -1,0 +1,14 @@
+{% set title = "Twig.js templating test" %}
+{% set pageTitle = "Use Twig from the start!" %}
+{% set benefits = ["okok111333111555!", "333333!", "中文ssss"] %}
+!!!
+%html
+  %body
+    %p
+    %meta{:charset => "UTF-8"}/
+    %title {{ title }}
+    %h3 {{ pageTitle }}
+    %ul
+      {% for value in benefits %}
+      %li {{ value }} eioujrfeiosjfoesifjio
+      {% endfor %}
